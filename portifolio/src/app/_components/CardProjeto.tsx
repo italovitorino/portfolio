@@ -22,22 +22,12 @@ export function CardProjeto({ titulo, descricao, ano, tecnologias, urlCodigoFont
                  p-6 shadow-sm transition-all duration-300 
                  bg-white/5"
     >
-      <div>
-        <Image 
-          src="/file.svg"
-          alt="Minha foto de perfil"
-          width={300}
-          height={200}
-          className="rounded-2xl object-cover"
-        />
-      </div>
-
       {/* Conteúdo */}
       <div className="flex flex-col justify-between w-full">
         {/* Título e descrição */}
         <div className="flex flex-col gap-3">
           <h1 className="text-3xl font-semibold">{titulo}</h1>
-          <p className="text-[var(--cinza-claro)] text-nowrap truncate">{descricao}</p>
+          <p className="text-[var(--cinza-claro)]">{descricao}</p>
         </div>
 
         {/* Sobre o projeto */}

@@ -20,10 +20,9 @@ export default function Projetos() {
   const [repos, setRepos] = useState<Repo[]>([]);
 
   useEffect(() => {
-    fetch("https://api.github.com/users/muriloAmachado/repos")
+    fetch("https://api.github.com/users/italovitorino/repos")
       .then((res) => res.json())
       .then((data) => {
-        // Ordenar por data de criação decrescente
         const sorted = data.sort(
           (a: Repo, b: Repo) => new Date(b.created_at).getTime() - new Date(a.created_at).getTime()
         );
@@ -38,9 +37,9 @@ export default function Projetos() {
       <p className="mb-6 text-[var(--cinza-claro)]">{t("descricao")}</p>
 
       <Carousel>
-        <CarouselContent>
+        <CarouselContent className="flex">
           {repos.map((repo) => (
-            <CarouselItem key={repo.id} className="basis-1/2">
+            <CarouselItem key={repo.id} className="basis-1/2 flex">
               <CardProjeto
                 titulo={repo.name}
                 descricao={repo.description || "Sem descrição"}
@@ -54,6 +53,7 @@ export default function Projetos() {
         <CarouselPrevious />
         <CarouselNext />
       </Carousel>
+
     </div>
   );
 }
