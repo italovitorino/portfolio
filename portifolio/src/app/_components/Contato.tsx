@@ -26,10 +26,9 @@ export default function Contato() {
             serviceID ?? "",
             templateID ?? "",
             {
-                nome: data.nome,
+                name: data.name,
                 email: data.email,
-                assunto: data.assunto,
-                mensagem: data.mensagem
+                message: data.message
             },
             userID ?? ""
         )
@@ -67,7 +66,7 @@ export default function Contato() {
                     <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-5 flex flex-col w-full">
                     <FormField
                         control={form.control}
-                        name="nome"
+                        name="name"
                         render={({ field }) => (
                             <FormItem>
                             <FormLabel>Nome</FormLabel>
@@ -75,7 +74,7 @@ export default function Contato() {
                                 <Input
                                     value={String(field.value || '')}
                                     onChange={(val) => field.onChange(val)}
-                                    placeholder="Insira"
+                                    placeholder="Seu nome"
                                 />
                             </FormControl>
                             <FormMessage />
@@ -92,7 +91,7 @@ export default function Contato() {
                                 <Input
                                     value={String(field.value || '')}
                                     onChange={(val) => field.onChange(val)}
-                                    placeholder="Insira"
+                                    placeholder="Seu e-mail"
                                 />
                             </FormControl>
                             <FormMessage />
@@ -101,7 +100,7 @@ export default function Contato() {
                     />
                     <FormField
                         control={form.control}
-                        name="assunto"
+                        name="message"
                         render={({ field }) => (
                             <FormItem>
                             <FormLabel>Assunto</FormLabel>
@@ -109,7 +108,7 @@ export default function Contato() {
                                 <Input
                                     value={String(field.value || '')}
                                     onChange={(val) => field.onChange(val)}
-                                    placeholder="Insira"
+                                    placeholder="Assunto"
                                 />
                             </FormControl>
                             <FormMessage />
@@ -126,7 +125,7 @@ export default function Contato() {
                                 <Textarea
                                     value={String(field.value || '')}
                                     onChange={(val) => field.onChange(val)}
-                                    placeholder="Insira"
+                                    placeholder="Sua mensagem"
                                     className='rounded-2xl'
                                 />
                             </FormControl>
