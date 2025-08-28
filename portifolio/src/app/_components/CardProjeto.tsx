@@ -37,7 +37,7 @@ export function CardProjeto({ titulo, descricao, ano, tecnologias, urlCodigoFont
         {/* Título e descrição */}
         <div className="flex flex-col gap-3">
           <h1 className="text-3xl font-semibold">{titulo}</h1>
-          <p className="text-[var(--cinza-claro)]">{descricao}</p>
+          <p className="text-[var(--cinza-claro)] text-nowrap truncate">{descricao}</p>
         </div>
 
         {/* Sobre o projeto */}

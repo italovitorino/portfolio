@@ -9,15 +9,21 @@ export default function Experiencias() {
   const experiencias: Cargo[] = [
   {
     "cargo": "Desenvolvedor full-stack",
-    "periodo": "Abr 2025 - Presente",
+    "periodo": "Jan. 2025 - Atual",
     "empresa": "90 Tecnologia da Informação",
-    "descricao": "Teste"
+    "descricao": "Desenvolvedor full-stack, atuando no desenvolvimento de sistemas e na definição de soluções arquiteturais dos projetos."
   },
   {
     "cargo": "Suporte Técnico",
-    "periodo": "Mai 2023 - Abr 2025",
-    "empresa": "TPA Sistemas LTDA",
-    "descricao": "Teste"
+    "periodo": "Abr 2024 - Dez 2024",
+    "empresa": "90 Tecnologia da Informação",
+    "descricao": "Atendimento aos usuários do sistema, abertura de tickets de erro para o setor de desenvolvimento e criação de relatórios personalizados."
+  },
+  {
+    "cargo": "Suporte Técnico",
+    "periodo": "Dez 2023 - Abr 2024",
+    "empresa": "RECIVIL",
+    "descricao": "Atendimento aos usuários do sistema, abertura de tickets de erro para o setor de desenvolvimento."
   }
 ];
 
