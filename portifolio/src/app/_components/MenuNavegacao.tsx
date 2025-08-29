@@ -21,13 +21,7 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden"
 import AlternadorIdioma from "./AlternadorIdioma"
 import { bebasNeue } from "../[locale]/fonts";
 import { useScrollSpy } from "@/hooks/use-scroll-spy"
-
-const sessoes: { id: string; label: string; }[] = [
-  { id: "sobre-mim", label: "Sobre Mim" },
-  { id: "experiencias", label: "Experiências" },
-  { id: "projetos", label: "Projetos" },
-  { id: "contato", label: "Contato" },
-]
+import messages from "../../../messages/pt-BR.json"
 
 export function MenuNavegacaoDesktop({ vertical = false }: { vertical?: boolean }) {
   
@@ -42,7 +36,7 @@ export function MenuNavegacaoDesktop({ vertical = false }: { vertical?: boolean 
       className={`w-full ${vertical ? "items-start justify-start" : "justify-end"}`}
     >
       <NavigationMenuList className={`${vertical ? "flex-col gap-4 items-start justify-start" : ""}`}>
-        {sessoes.map(({id, label}) => (
+        {messages.Secoes.map(({id, label}) => (
           <NavigationMenuItem key={id}>
             <NavigationMenuLink asChild>
                 <Link

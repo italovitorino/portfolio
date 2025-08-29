@@ -15,7 +15,7 @@ export default function Inicio() {
             {/* Imagem primeiro no mobile */}
             <div className="w-full md:w-1/2 flex justify-center items-center order-1 md:order-2">
                 <Image 
-                    src="/file.svg"
+                    src="/Eu.jpg"
                     alt="Minha foto de perfil"
                     width={562}
                     height={562}
@@ -31,10 +31,13 @@ export default function Inicio() {
                 </div>
                 
                 <div className="flex gap-3 items-center">
-                    <Button className="bg-[var(--primaria)] text-black rounded-full flex items-center gap-2 hover:bg-[var(--primaria-hover)] w-44 cursor-pointer">
-                        DOWNLOAD CV
-                        <Download />
-                    </Button>
+                    <a href="/CV - Ítalo Vitorino.pdf" download>
+                        <Button className="bg-[var(--primaria)] text-black rounded-full flex items-center gap-2 hover:bg-[var(--primaria-hover)] w-44 cursor-pointer">
+                            DOWNLOAD CV
+                            <Download />
+                        </Button>
+                    </a>
+
 
                     <BotaoRedeSocial link={LINKEDIN_URL} rotulo="Linkedin">
                         <FaLinkedinIn size={20}/>

@@ -1,31 +1,45 @@
 {
   "SobreMim": {
-    "apresentacao": "Olá, eu sou Murilo Andrade",
-    "descricao": "Estudante de Engenharia de Software na PUC Minas e formado como Técnico em Desenvolvimento de Sistemas pelo SENAI CTTI. Atualmento, atuo como Desenvolvedor full-stack na 90 Tecnologia da Informação, empresa especializada em softwares para a engenharia civil."
+    "apresentacao": "Olá, eu sou Ítalo Vitorino",
+    "descricao": "Sou graduando em Engenharia de Software e desenvolvedor fullstack na 90 Tecnologia da Informação, com experiência em desenvolvimento de software atuando tanto no frontend quanto no backend em projetos acadêmicos e profissionais. Possuo conhecimentos em linguagens como C#, Java, JavaScript e PHP, com domínio de tecnologias backend como Spring, .NET Framework, Hibernate e JPA, e frontend em React. Trabalho com bancos de dados MySQL, SQL Server e PostgreSQL, utilizando testes com JUnit e aplicando boas práticas de programação, incluindo princípios SOLID. Tenho familiaridade com metodologias ágeis, especialmente Scrum."
   },
 
-  "Secoes": {
-    "experiencias": "Experiências",
-    "projetos": "Projetos",
-    "contatos": "Contatos"
-  },
+  "Secoes": [
+    {
+      "id": "sobre-mim",
+      "label": "Sobre mim"
+    },
+    {
+      "id": "experiencias",
+      "label": "Experiências"
+    },
+    {
+      "id": "projetos",
+      "label": "Projetos"
+    },
+    {
+      "id": "contato",
+      "label": "Contato"
+    }
+  ],
 
   "Experiencias": {
     "experiencias": "Experiências",
 
-    "90": {
-      "cargo": "Desenvolvedor full-stack",
-      "periodo": "Abr 2025 - Presente",
-      "empresa": "90 Tecnologia da Informação",
-      "descricao": "Teste"
-    },
-
-    "Tpa": {
-      "cargo": "Suporte Técnico",
-      "periodo": "Mai 2023 - Abr 2025",
-      "empresa": "TPA Sistemas LTDA",
-      "descricao": "Teste"
-    }
+    "data": [
+      {
+        "cargo": "Desenvolvedor full-stack",
+        "periodo": "Abr 2025 - Presente",
+        "empresa": "90 Tecnologia da Informação",
+        "descricao": "Atuo desenvolvendo novas funcionalidades e solucionando erros no sistema de orçamento e planejamento de obras, garantindo o bom funcionamento e a eficiência da aplicação."  
+      },
+      {
+        "cargo": "Suporte Técnico",
+        "periodo": "Mai 2023 - Abr 2025",
+        "empresa": "TPA Sistemas LTDA",
+        "descricao": "Atendimento e suporte técnico a usuários, solucionando problemas e garantindo a usabilidade dos sistemas da empresa."
+      }
+    ]
   },
 
   "Projetos": {

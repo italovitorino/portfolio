@@ -1,7 +1,7 @@
 {
   "SobreMim": {
     "apresentacao": "Hello, I am Italo Vitorino",
-    "descricao": "Software Engineering student at PUC Minas and trained as a Systems Development Technician by SENAI CTTI. Currently working as a full-stack developer at 90 Tecnologia da Informação, a company specializing in civil engineering software."
+    "descricao": "I am a Software Engineering graduate and full-stack developer at 90 Tecnologia da Informação, with experience in software development working on both frontend and backend in academic and professional projects. I have knowledge of languages such as C#, Java, JavaScript, and PHP, with proficiency in backend technologies such as Spring, .NET Framework, Hibernate, and JPA, and frontend in React. I work with MySQL, SQL Server, and PostgreSQL databases, using JUnit testing and applying good programming practices, including SOLID principles. I am familiar with agile methodologies, especially Scrum."
   },
 
   "Secoes": {
@@ -13,27 +13,29 @@
   "Experiencias": {
     "experiencias": "Experiences",
 
-    "90": {
-      "cargo": "Desenvolvedor full-stack",
-      "periodo": "Abr 2025 - Presente",
-      "empresa": "90 Tecnologia da Informação",
-      "descricao": "Teste"
-    },
-
-    "Tpa": {
-      "cargo": "Suporte Técnico",
-      "periodo": "Mai 2023 - Abr 2025",
-      "empresa": "TPA Sistemas LTDA",
-      "descricao": "Teste"
-    }
+    "data": [
+      {
+        "cargo": "Desenvolvedor full-stack",
+        "periodo": "Abr 2025 - Presente",
+        "empresa": "90 Tecnologia da Informação",
+        "descricao": "Atuo desenvolvendo novas funcionalidades e solucionando erros no sistema de orçamento e planejamento de obras, garantindo o bom funcionamento e a eficiência da aplicação."
+      },
+      {
+        "cargo": "Suporte Técnico",
+        "periodo": "Mai 2023 - Abr 2025",
+        "empresa": "TPA Sistemas LTDA",
+        "descricao": "Atendimento e suporte técnico a usuários, solucionando problemas e garantindo a usabilidade dos sistemas da empresa."
+      }
+    ]
   },
 
   "Projetos": {
     "projetos": "Projects",
-    "descricao": "A selection of software and solutions I have developed."
+    "descricao": "A selection of software and solutions I have developed.",
+    "codigoFonte": "Source code"
   },
 
   "Contato" : {
-    "titulo": "Vamos nos conectar"
+    "titulo": "Let's connect"
   }
 }

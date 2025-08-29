@@ -46,7 +46,7 @@ export default function Contato() {
         <div id='contato' className="flex flex-col md:flex-row w-full justify-between px-10 md:px-8 py-10 gap-8">
             <div className="text-wrap w-full h-full md:w-1/2 align-top md:text-left flex flex-col gap-y-8">
                 <h1 className={`${bebasNeue.className} text-6xl`}>{t("titulo")}</h1>
-                <p>muriloandrademachado@gmail.com</p>
+                <p>italo.vitorinobs@hotmail.com</p>
                 <div className='flex gap-x-2'>
                     <BotaoRedeSocial link={LINKEDIN_URL} rotulo="Linkedin">
                         <FaLinkedinIn size={20}/>
@@ -54,10 +54,6 @@ export default function Contato() {
 
                     <BotaoRedeSocial link={GITHUB_URL} rotulo="GitHub">
                         <FaGithub size={20}/>
-                    </BotaoRedeSocial>
-
-                    <BotaoRedeSocial link={GITHUB_URL} rotulo="GitHub">
-                        <FaInstagram size={20}/>
                     </BotaoRedeSocial>
                 </div>
             </div>
