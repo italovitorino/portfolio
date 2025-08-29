@@ -27,3 +27,5 @@ O projeto foi construído com as seguintes tecnologias:
 # Protótipos
 
 Para visualizar o protótipo do projeto [clique aqui](./images/Protótipo.png) 🚀
+
+![Demonstração do Portfólio](./images/gif.gif)
