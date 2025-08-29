@@ -116,7 +116,7 @@ export default function Contato() {
                         name="mensagem"
                         render={({ field }) => (
                             <FormItem>
-                            <FormLabel>Mennsagem</FormLabel>
+                            <FormLabel>Mensagem</FormLabel>
                             <FormControl>
                                 <Textarea
                                     value={String(field.value || '')}
