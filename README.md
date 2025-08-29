@@ -1,7 +1,7 @@
 # Portfólio
 Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido durante a disciplina de Laboratório de Projeto de Software, no 4º período do curso de Engenharia de Software da PUC Minas.
 
-Acesse o portfólio completo aqui: [Visualizar Portfólio](http://portfolio-oabj.vercel.app/pt-BR) 👀
+Acesse o portfólio completo aqui: [Visualizar Portfólio](https://italovitorino.vercel.app/pt-BR) 👀
 
 ---
 
